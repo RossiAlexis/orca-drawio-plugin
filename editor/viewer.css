@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  background: var(--orca-background, #ffffff);
+  color: var(--orca-foreground, #1b2330);
+  font: 13px var(--orca-font-sans, system-ui, sans-serif);
+}
+
+#root {
+  padding: 12px;
+}
+
+/* draw.io diagrams are drawn for a white page, so the canvas stays white in a dark Orca theme. */
+.diagram {
+  background: #ffffff;
+  border: 1px solid var(--orca-border, #d0d7de);
+  border-radius: 6px;
+  overflow: auto;
+}
+
+.message {
+  max-width: 60ch;
+  padding: 24px 12px;
+  color: var(--orca-muted-foreground, #57606a);
+}
+
+.message strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--orca-foreground, #1b2330);
+}

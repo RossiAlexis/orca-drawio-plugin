@@ -1,0 +1,26 @@
+{
+  "manifestVersion": 2,
+  "id": "drawio",
+  "name": "draw.io",
+  "version": "0.1.0",
+  "description": "View draw.io diagrams (.drawio and editable .drawio.svg) inside Orca, offline, with the Azure and other draw.io icon libraries.",
+  "engines": {
+    "orca": ">=1.4.248"
+  },
+  "execution": "sandboxed-ui",
+  "pluginApi": 1,
+  "contributes": {
+    "customEditors": [
+      {
+        "id": "drawio",
+        "title": "draw.io",
+        "extensions": [
+          ".drawio",
+          ".drawio.svg"
+        ],
+        "entry": "editor/index.html",
+        "frame": "isolated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+draw.io viewer and image libraries from https://github.com/jgraph/drawio
+tag v29.7.12, commit c9904435fd1a6795f6cad5c3908ec89d9afb8fb1
+src/main/webapp/js/viewer-static.min.js -> js/viewer-static.min.js
+src/main/webapp/img/lib/ -> img/lib/
